@@ -16,51 +16,50 @@
   </head>
   <body>
     <!--cabeçalho-->
+
     <header>
       <img src="Logo.png" id="logo" />
       <h1 id="site">SISTEMA DE PONTO</h1>
     </header>
 
     <main>
-      <p>Login:</p>
-      <div></div>
-      <!--cadastro_nome -->
-      <label for="name" class="name">Nome completo:</label>
+      <form action="">
+        <p>Login:</p>
+        <div></div>
+        <!--cadastro_nome -->
+        <label for="name" class="name">Nome completo:</label>
 
-      <input
-        type="text"
-        class="name"
-        name="name"
-        required
-        minlength="4"
-        maxlength="50"
-        size="10"
-      />
+        <input
+          type="text"
+          class="name"
+          name="name"
+          required
+          minlength="4"
+          maxlength="50"
+          size="10"
+        />
 
-      <div></div>
-      <!--cadastro_Matricula -->
-      <label for="number" class="matricula">Matricula:</label>
+        <div></div>
+        <!--cadastro_Matricula -->
+        <label for="number" class="matricula">Matricula:</label>
 
-      <input
-        type="number"
-        class="name"
-        name="name"
-        required
-        minlength="4"
-        maxlength="15"
-        size="10"
-      />
-      <!--cadastro_botao -->
-      <div></div>
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          name="number"
+          required
+          minlength="4"
+          maxlength="15"
+          size="10"
+          title="digite sua matricula"
+          placeholder="Ex:2221110102"
+        />
+        <!--cadastro_botao -->
+        <div></div>
 
-      <input
-        type="button"
-        class="botao"
-        name="enviar"
-        value="Enviar"
-        requireds
-        size="10"
-      />
+        <button type="submit">Enviar</button>
+      </form>
     </main>
   </body>
 </html>
