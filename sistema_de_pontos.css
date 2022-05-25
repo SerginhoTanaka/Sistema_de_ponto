@@ -12,12 +12,12 @@
 }
 
 #logo{
-  width: 200px;
+  width: 170px;
   height: 150px;  
 
 }
 header{
-  background:linear-gradient( to right, white 15%,rgb(247, 146, 30)  ) ;
+  background: linear-gradient(25deg, rgba(0,0,0,1) 25%, rgba(255,102,0,1) 51%, rgba(255,241,241,1) 78%);
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -30,7 +30,7 @@ body{
 }
 
 main{
-  background:linear-gradient( to top , white,rgb(247, 146, 30)  ) ;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 13%, rgba(255,102,0,1) 51%, rgba(250,250,250,1) 85%);
   justify-content: center;
   display: inline-block;
   flex-flow: row wrap;
@@ -52,11 +52,16 @@ input{
   div{
     margin-top: 30px;
   }
+  label{
+    color:rgb(110, 110, 112);
+    text-shadow: 0 0 10px rgb(110, 110, 112);
+  }
 
 .botao{
   background-color: white;
   color: black;
   margin-top: 30px;
+
 }
 .botao:hover{
   background-color:rgb(185, 182, 182); 
